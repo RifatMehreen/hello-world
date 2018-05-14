@@ -27,7 +27,7 @@ while count < len(ans):
 	guess = guess.upper()
 	
 	for i in range(len(ans)):
-		if answer[i] == guess:
+		if ans[i] == guess:
 			display[i] = guess
 			count += 1
 	print("you have guessed: " + str(count) + " correct letters\n")
